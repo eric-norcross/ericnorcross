@@ -24,6 +24,9 @@ source 'https://rubygems.org'
   gem 'friendly_id', '~> 4.0.10' # SEO
   gem 'turbolinks', '~> 5'
   gem 'rails_12factor' # To silence Heroku deprecation warning
+  
+# View
+  gem 'haml'
 
 # Authorization & Authentication
   # gem 'cancan'
@@ -73,8 +76,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  # View
-  gem 'haml'
   # gem 'coffee-rails', '~> 4.2'
 
   # Database
